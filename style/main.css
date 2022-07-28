@@ -1,0 +1,33 @@
+@font-face{
+    src: url("../Marvel-Regular\ 2.ttf");
+    font-family: 'Narvel';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+}
+/* 
+h1{
+    font-size: 20000px;
+    font-family: 'Narvel';
+    color: red;
+} */
+
+h1{
+    font-size: 200px;
+    background: linear-gradient(red, blue, gray, green, rgb(218, 41, 41), rgb(216, 128, 128), rgb(0, 255, 102));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
